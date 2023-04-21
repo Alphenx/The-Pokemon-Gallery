@@ -1,5 +1,8 @@
-<p align="center">PROJECT TEMPLATE</p>
-<h1 align="center">React + TypeScript + Vite</h1>
+<p align="center">POKE-API PROJECT</p>
+<div align="center">
+  <img width="500" src="public/assets/pokemon-logo.svg">
+</div>
+<h1 align="center">The Pokemon Gallery</h1>
 
 <br>
 
@@ -20,6 +23,11 @@
     <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
   </a>
 </p>
+
+<br>
+<br>
+
+This is a web application that allows users to explore and discover more about Pokémons. The application is designed using React and Styled Components to provide an interactive and visually appealing experience. The data is obtained from the PokeApi and the code is clean and secure thanks to the use of Jest for testing and Sonar for quality control.
 
 <br>
 
