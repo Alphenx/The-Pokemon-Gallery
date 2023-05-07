@@ -15,3 +15,26 @@ ol {
 a {
   text-decoration: none;
 }
+
+body {
+  font-family: Helvetica, sans-serif, Arial;
+  background-color: #e9e9e9;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #0000004d;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px #0000004d;
+  background-color: #1e1e1e;
+}
