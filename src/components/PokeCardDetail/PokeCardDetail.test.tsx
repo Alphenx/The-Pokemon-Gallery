@@ -5,7 +5,7 @@ import { pokemon1 } from '../../mocks/pokemon-mocks';
 
 describe('Given a PokeCardDetail component', () => {
   describe('When it is rendered with valid props', () => {
-    test('Then it should display pokemon name, id and image', () => {
+    test('then it should display pokemon name, id and image', () => {
       render(
         <MemoryRouter>
           <PokeCardDetail pokemon={pokemon1} />
@@ -23,15 +23,7 @@ describe('Given a PokeCardDetail component', () => {
       expect(image).toHaveAttribute('src', pokemon1.imgUrl);
     });
 
-    // test('Then it should display pokemon types', () => {
-    //   const type1 = screen.getByTestId(`type-${pokemon1.type1}`);
-    //   const type2 = screen.getByTestId(`type-${pokemon1.type2}`);
-
-    //   expect(type1).toBeInTheDocument();
-    //   expect(type2).toBeInTheDocument();
-    // });
-
-    test('Then it should display pokemon size', () => {
+    test('then it should display pokemon size', () => {
       render(
         <MemoryRouter>
           <PokeCardDetail pokemon={pokemon1} />
@@ -45,7 +37,7 @@ describe('Given a PokeCardDetail component', () => {
       });
     });
 
-    test('Then it should display pokemon stats', () => {
+    test('then it should display pokemon stats', () => {
       render(
         <MemoryRouter>
           <PokeCardDetail pokemon={pokemon1} />
