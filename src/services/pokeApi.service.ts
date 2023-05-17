@@ -51,7 +51,7 @@ export const getPokemonPage = async (page: number = 1, limit: number = 20) => {
   }
 };
 
-export const getPokemonsByType = async (type: string) => {
+export const getPokemonsByType = async (type: string | undefined) => {
   try {
     const response = await fetch(`${BASE_URL}/type/${type}`);
     const pokemonsResponse = await response.json();
