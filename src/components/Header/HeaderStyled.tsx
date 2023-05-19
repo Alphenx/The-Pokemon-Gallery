@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HeaderStyled = styled.header`
-  height: 180px;
+  height: 210px;
   background-color: #1e1e1e;
   position: relative;
 
@@ -10,13 +10,13 @@ export const HeaderStyled = styled.header`
   align-content: center;
 
   img {
-    width: 250px;
+    width: 280px;
   }
 
   .socials {
     position: absolute;
     right: 25px;
-    top: 16%;
+    top: 20%;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -30,10 +30,10 @@ export const HeaderStyled = styled.header`
 
   @media (max-width: 769px) {
     img {
-      width: 180px;
+      width: 220px;
     }
 
-    height: 180px;
+    height: 210px;
 
     .socials {
       flex-direction: row;
